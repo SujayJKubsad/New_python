@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
 #MAINTAINER sujay@gmail.com>
-USER root
+#USER root
 # Install dependencies
 RUN apt-get -qqy update
 RUN apt-get -qqy --no-install-recommends install \
