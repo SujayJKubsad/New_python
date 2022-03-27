@@ -3,7 +3,7 @@ FROM ubuntu:17.10
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
 
-MAINTAINER Jorge Useche <juusechec@gmail.com>
+MAINTAINER sujay@gmail.com>
 USER root
 # Install dependencies
 RUN apt-get -qqy update
